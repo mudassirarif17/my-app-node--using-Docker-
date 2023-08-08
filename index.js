@@ -6,8 +6,8 @@ const app = express();
     res.json({message : "Hello from Docker"})
  })
 
- app.listen(3000 , ()=>{
-    console.log("Server Running at Port 3000")
+ app.listen(9000 , ()=>{
+    console.log("Server Running at Port 9000")
 }) 
 
 
